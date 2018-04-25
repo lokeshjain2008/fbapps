@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "396308691356",
+    "firebase_url": "https://fbapps-guruji.firebaseio.com",
+    "project_id": "fbapps-guruji",
+    "storage_bucket": "fbapps-guruji.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396308691356:android:aaf2d08d844e0e20",
+        "android_client_info": {
+          "package_name": "com.aspparty.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396308691356-e076g5maqi811b8feq57bbbh3cch0jsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3IL6InJw_SIbTSlxPZHn4ZEUqAF0BwwY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396308691356:android:2abff6bc44479bc1",
+        "android_client_info": {
+          "package_name": "com.parasharCommunity.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396308691356-e076g5maqi811b8feq57bbbh3cch0jsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3IL6InJw_SIbTSlxPZHn4ZEUqAF0BwwY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

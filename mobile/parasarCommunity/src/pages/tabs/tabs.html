@@ -1,0 +1,6 @@
+<ion-tabs tabsPlacement="top" #ionTabs  >
+  <ion-tab tabTitle="होम" [root]="tab2Root" rootParams="all" ></ion-tab>
+  <ion-tab *ngFor="let cat of (community)?.categories"
+    [root]="tab2Root" [rootParams]="cat" [tabTitle]="cat">
+    </ion-tab>
+</ion-tabs>

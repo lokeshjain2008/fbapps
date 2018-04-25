@@ -1,0 +1,9 @@
+firebase-debug.log
+public/
+*.rules
+**/*.rules
+**/secrets/
+mobile/**/google-services.json
+mobile/**/GoogleService-Info.plist
+mobile/**/node_modules/
+mobile/**/platforms/

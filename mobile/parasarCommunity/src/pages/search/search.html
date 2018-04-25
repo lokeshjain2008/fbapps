@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar>
+      <button menuToggle ion-button color="primary">
+          <ion-icon name="menu">
+          </ion-icon>
+        </button>
+    <ion-title>{{ 'APP_TITLE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-card *ngFor="let message of messages|async">
+    <img  [src]="message.image" height='140' *ngIf="message.image">
+    <ion-card-header>
+      {{message.title}}
+    </ion-card-header>
+    <ion-card-content>
+      {{message.message}}
+    </ion-card-content>
+    <ion-row>
+      <ion-col center padding-top>
+        <ion-note >
+             &nbsp; &nbsp; {{message.created_at | date}}
+          </ion-note>
+      </ion-col>
+      <ion-col center padding-top>
+        <ion-note>
+            {{message.category}}
+        </ion-note>
+      </ion-col>
+      <ion-col>
+        <button ion-button icon-left (click)="shareMessage(message)" clear small>
+          <ion-icon name="share"></ion-icon>
+          <div>शेयर</div>
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+
+</ion-content>
